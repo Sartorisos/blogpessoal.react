@@ -2,7 +2,7 @@ import React from 'react';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import {Typography,Grid } from '@material-ui/core';
+import {Typography, Grid } from '@material-ui/core';
 import {Box} from '@mui/material';
 
 function Footer() {
@@ -28,7 +28,7 @@ function Footer() {
                     </Box>
                     <Box style={{ backgroundColor: "#303F9F", height: "60px" }}>
                         <Box paddingTop={1}>
-                            <Typography variant="subtitle2" align="center" gutterBottom style={{ color: "white" }} >© 2023 Copyright:</Typography>
+                            <Typography variant="subtitle2" align="center" gutterBottom style={{ color: "white" }} >© 2020 Copyright:</Typography>
                         </Box>
                         <Box>
                             <a target="_blank" href="https://brasil.generation.org" rel="noopener noreferrer">
