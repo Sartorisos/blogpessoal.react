@@ -10,7 +10,7 @@ import { addToken } from "../../store/tokens/actions";
 import { toast } from 'react-toastify';
 
 function Login() {
-    let navigate = useNavigate();
+    const navigate = useNavigate();
     const dispatch = useDispatch();
     const [token, setToken] = useState('');
     const [userLogin, setUserLogin] = useState<UserLogin>(

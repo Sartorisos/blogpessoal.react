@@ -14,7 +14,7 @@ function Navbar() {
     const token = useSelector<TokenState, TokenState["tokens"]>(
         (state) => state.tokens
       );
-    let navigate = useNavigate();
+    const navigate = useNavigate();
     const dispatch = useDispatch();
     
     function goLogout(){
@@ -32,7 +32,7 @@ function Navbar() {
         navigate('/login')
     }
 
-    var navbarComponent;
+    let navbarComponent;
 
     if(token != ""){
         navbarComponent = <AppBar position="static">

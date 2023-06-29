@@ -12,7 +12,7 @@ import { toast } from 'react-toastify';
 
 function Home() {
 
-    let navigate = useNavigate();
+    const navigate = useNavigate();
     const token = useSelector<TokenState, TokenState["tokens"]>(
         (state) => state.tokens
       );
